@@ -1,0 +1,94 @@
+*{
+	box-sizing:border-box;
+}
+
+#navbar{
+	position:fixed;
+	border-right:3px solid rgba(0, 22, 22, 0.4);
+	height:100%;
+	width:20vw;
+}
+
+#main-doc{
+  position:absolute;
+margin-left:21vw; 
+padding:20px;
+text-align:justify;
+   }
+   
+ #navbar ul{
+	padding:0;
+	height:90%;
+    overflow:auto;/*to get the scroll bar if it has more navigation menu*/
+ }
+ 
+#navbar li{
+	  list-style:none;
+	  position:relative;
+	  border-top:1px solid;
+	  width:100%;
+	 
+	  }
+
+#navbar a{
+	display:block;
+	text-decoration:none;
+    padding:10px 30px;
+	color: #4d4e53;
+}
+
+
+code{
+	background-color:#f7f7f7;
+	display:block;
+	padding:20px 2px 20px 10px;
+	margin-left:10px;
+	border-radius:0.5rem;
+}
+
+
+header{
+	font-size:35px;
+}
+
+nav header{
+	text-align:center;
+}
+body{
+	line-height: 1.5;
+	margin-top:0;
+	margin-left:0;
+}
+
+section li{
+	margin-bottom:10px;
+	margin-left:30px;
+}
+
+@media only screen and (max-width:600px){
+	header{
+		font-size:18px;
+		font-weight:bold;
+	}
+	#navbar{
+    width:25%;
+	}
+
+	#main-doc{
+		margin-left:26vw;
+	}
+}
+
+@media only screen and (min-width:600px){
+	header{
+		font-size:25px;
+		font-weight:bold;
+	}
+	#navbar{
+    width:25%;
+	}
+
+	#main-doc{
+		margin-left:26vw;
+	}
+}
